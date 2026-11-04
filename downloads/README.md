@@ -6,6 +6,12 @@ Open a file below, then click **Download raw file** (the down-arrow icon). No pu
 - [Excel data import template](EQ_Data_Import_Template.xlsx)
 - [Illustrated PDF user guide](EQ_Maintenance_Windows_User_Guide.pdf)
 
+## Approval email
+
+Microsoft 365 approval notifications are implemented with Approve and Reject buttons opening an authenticated review page. Configure approver email addresses in User Settings and mail settings under Administration → Email Notifications. Email remains disabled until IT configures HTTPS, approved Microsoft Graph sender permissions and the server-side application secret. No real inbox delivery has been tested against your tenant.
+
+See [Microsoft 365 email setup](EMAIL_NOTIFICATION_SETUP.md). Opening a link does not change status; the assigned user must sign in and confirm.
+
 ## Excel upload
 
 The updated app includes **Administration → User Settings → Excel Data Import**, also available from the application header for Administrators.
